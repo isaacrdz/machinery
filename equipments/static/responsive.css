@@ -1,0 +1,400 @@
+@media screen and (min-width:780px){
+
+aside
+{
+		display: inline-block;
+		float: right;
+		width: 35%;
+		margin: 0 0 0 0;
+		padding:0 1em 1em 1em ;
+		box-sizing:border-box;
+		vertical-align: top;
+		
+}
+
+
+#icono-chat
+{
+		position: relative;
+		right: 10px ;
+		
+
+}
+
+section.chat-contactanos a,section.chat-contactanos p 
+{
+	font-size: 20px;
+}
+
+
+
+
+
+body
+	{ 
+	    background-attachment: fixed; 
+		background-image: url('../img/fondo.png') ;
+		font-family: helvetica; 
+		padding-bottom: 1em; 
+		width: 100%; 
+ 	}
+
+ 	.contenido-secundario 
+ 	{
+ 		width: 65%;
+ 	}
+
+ 	.contenido-terciario
+ 	{
+ 		width: 65% ;
+ 	}
+	#tabs
+	{
+		margin: 0 80px;
+	}
+	#tabs #tab
+	{
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+		width: 32%;
+
+	}
+
+	div#buscador 
+{
+max-width: 300px;
+width: 100%;
+border: none;
+padding: 0;
+float: right;
+background: none;
+position: absolute;
+right: 0;
+top:1em;
+
+
+
+
+}
+
+	section.contenido-items
+	{
+		border: none;
+		width: 60%;
+		display: inline-block;
+
+
+	}
+	section.contenido-terciario .item-complementos
+	{
+	background: #ffb800; 	 
+	border-radius: 10px; 
+	display: inline-block;
+	font-size: 16px; 
+	font-weight: normal; 
+	margin: 0.5em ;		 
+	padding: 0.5em; 
+	vertical-align: ;	
+	text-align: right;
+	}
+	section.contenido-terciario .item-complementos a
+	{
+		text-decoration: none;
+		color: white;
+	}
+
+	section.galeria-noticias article figure
+	{
+		display: inline-block;
+
+	}
+
+	section.galeria-noticias article figure img
+	{
+		max-width: 200px;
+		width: 100%;
+	}
+
+	section #venta-nuevos 
+	{
+		display: inline-block; vertical-align: top;
+	} 
+
+	.fright
+	{
+	 	float: right;
+	 	margin: 0 1em;
+	}
+
+	.aleft
+	{
+		text-align: left;
+		
+		margin-bottom: 1em;
+		font-size: 30px;
+	}
+	.justify
+	{
+		text-align: justify;
+		margin: 1em 1em ;
+		font-size: 12px;
+
+	}
+
+	.clear
+	{
+		clear: both;
+	}
+
+	section.chat-contactanos
+{
+	
+	text-align: left;
+
+	
+}
+
+	section.chat-contactanos a, section.chat-contactanos p
+{
+	
+	display: inline-block;
+	margin-right:30px;
+	color: white;
+	
+}
+
+#form-box
+{
+		
+		text-align: left;
+		
+}
+
+#form-box form input
+{
+		background: white ; 
+		border-radius: 10px; 
+		padding: 0.1em;
+		margin: 0 0 1em 0;
+		max-width: 250px;
+		width: 100%;
+		padding: 0.3em 0;
+		
+}
+
+textarea 
+{
+	max-width: 500px;
+	width: 100%;
+}
+
+section.chat-contactanos a
+{	
+	display: inline;
+	margin-right: 0.5em
+	
+
+
+}
+	
+	section#slider-video #slider_box 
+	{
+		display: inline-block;
+		vertical-align: top; 
+		width: 50%;
+	}
+	section#slider-video #caja-video 
+	{  
+		display:inline-block; 
+		vertical-align: top; 
+		width: 47%; 
+		position: relative; 
+		left: 10px ;
+	}
+
+.cajadevideo
+{
+	margin-top:0.5em;
+}
+	.slider-box2
+	{
+		width: 65%;
+	}	
+
+
+
+header #logo
+
+{ 
+	
+	 width: 400px; 
+	 display: inline-block;
+	 position: relative;
+	 right: 50px;
+	 
+}
+
+header #logo img 
+
+{
+	max-width: 350px;
+	width: 100%;	
+	margin:0;
+	text-align: left;
+	padding: 0.5em;
+	box-sizing:border-box;
+}
+
+figure#sublogo
+{
+	
+	vertical-align: top; 	
+	float: right;
+	margin-top: 3em;
+	margin-right: 0.5em;
+	
+}
+figure#sublogo img
+{
+	
+	max-width: 150px;
+	width: 100%;
+	
+}
+
+#info-box{ 
+	
+	
+	clear: both;
+}
+
+section.main-item-picture
+{
+	height: 750px;
+	
+}
+
+.bg-maquinaria
+{
+	background: url(../img/maquina.jpg) no-repeat;
+
+}
+
+.bg-plataformas
+{
+	background: url(../img/genie.jpg) no-repeat;
+	
+}
+
+.bg-dressta
+{
+	background: url(../img/maquina-dressta.jpg) no-repeat;
+	
+}
+
+.bg-montacargas
+{
+	background: url(../img/montacargas-landing.jpg) no-repeat;
+	
+}
+
+.main-item-picture-form
+{
+	width: 45%;
+	display: inline-block;
+}
+
+ .main-item-picture-form form 
+ {
+	
+	
+	width: 80% ;
+	margin: 0 auto;
+
+	
+ }
+
+ .main-item-picture-form form input
+ {
+
+	
+	max-width:350px;
+	width: 100% ;
+	height: 50px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border: 1px solid #cccccc;
+	font-size: 18px ;
+ }
+
+ .main-item-picture-form form input
+ {
+
+	
+	max-width:350px;
+	width: 100% ;
+	height: 50px;
+	margin-top: 0.5em;
+	border: 1px solid #cccccc;
+	font-size: 18px ;
+ }
+
+ .main-item-picture-form form textarea
+ 
+ {	
+	max-width:350px;
+	width: 100%;
+	margin-top: 0.5em;
+ }
+
+
+
+.main-item-picture-tabs
+{
+	width:40%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 7em auto;
+}
+
+.main-item-picture-tabs .main-item-picture-tabs-tabs
+{
+	width:350px;
+	height: 80px;
+	font-size: 18px ;
+	float: right;
+	margin: 2em auto;
+	background: #FFB800;
+	border-bottom:2px solid white;
+
+}
+
+.main-item-picture-tabs .main-item-picture-tabs-tabs a
+{
+	color:white;
+	font-size: 2em;	
+	margin-top: 1em;
+	font-weight:bold 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Modelo:{{titulo}} </title>
+</head>
+<body>
+<h1> {{selected_equipment}} </h1>
+
+<nav>
+	<ul> 
+		{% for equipment in equipments %}
+		<li>
+			<a href="{{equipment.get_absolute_url}}" {% if equipment.active %} style="background:red" {% endif %}>{{equipment.brand}}-{{equipment.model}} </a> 
+			
+
+		</li> {% endfor %}
+
+	</ul>
+</nav>
+	<section class= "contenido-item">
+		
+	<p>
+		<strong>Marca</strong>: {{equipment.brand}}
+	</p>
+	<p>
+		<strong>Familia</strong> {{equipment.family}}
+	</p>
+	<p>
+		 <strong>Modelo</strong>: {{equipment.model}}
+	</p>
+	<p>
+		<strong>Especificaciones</strong>: {{equipment.specification}}		
+	</p>
+
+
+<style>
+	h1
+	{
+		border:1px solid gray;
+		text-align: center;
+		width: 50%;
+		margin:0 auto;
+	}
+	.contenido-item
+	{
+		width: 50%;
+		border:1px solid red;
+		margin: 0 auto;
+		padding:1em;
+		text-align: justify;
+		box-sizing:border-box;
+
+	}
+	nav 
+	{
+		width: 50% ;
+		margin:  0 auto;
+		padding:1em;
+		box-sizing:border-box;
+		border:1px solid red;
+		margin: 1em auto;
+		text-decoration: none:;
+
+
+	}
+	nav ul li 
+	{
+		display: inline-block;
+		padding:1em;
+		box-sizing:border-box;
+		text-decoration: none:;
+		text-decoration: none:;
+
+	}
+
+		nav ul li a
+	{
+		
+		text-decoration: none:;
+
+	}
+
+	aside
+	{
+		border:1px solid gray;
+		width: 50%;
+		margin:1em  auto 0 auto;
+		box-sizing:border-box;
+		padding:1em;
+		text-align: center;
+
+	}
+
+</style>
+
+	</section>
+	<aside>
+		{{titulo}}
+	</aside>
+</body>
+</html>

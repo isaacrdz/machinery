@@ -51,6 +51,7 @@ INSTALLED_APPS = (
     'families',
     'south',
     'django_extensions',
+    'gunicorn',
 )
 
 MIDDLEWARE_CLASSES = (
